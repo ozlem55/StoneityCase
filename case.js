@@ -23,10 +23,10 @@ arrsort1.push(arr[i]) //çift indisli sayıları ekleme [13,8,6,1]
 }else{
 arrsort2.push(arr[i]) //tek indisli sayıları ekleme [9,7,4]
 }
-arrsort2.sort(function(k,m){return k-m}) //tek indisli dizileri ters çevirme [4,7,9]
+arrsort2.sort(function(k,m){return k-m}) //tek indisli diziyi ters çevirme [4,7,9]
 
 }
 arr=arrsort1.concat(arrsort2) // dizileri birleştirme [13,8,6,1,4,7,9]
 //console.log(arrsort1)
 //console.log(arrsort2)
-console.log(arr)
+console.log(arr) //[13,8,6,1,4,7,9]
